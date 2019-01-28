@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+$font-stack: 'Poppins', sans-serif;
+$primary-color: #333;
+
+$title-font: 'Fredoka One', cursive;
+$title-color: white;
+
+$link-color: #2196F3;
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main-content {
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+#main-block {
+    margin-top: 120px;
+    margin-left: 20vw;
+    width: 300px;
+    display: inline-block;
+    white-space: normal;
+}
+
+#logo-block {
+    display: inline-block;
+    padding-left: 20vw;
+    margin-top: 160px;
+    vertical-align: top;
+}
+
+#wayland-logo {
+    width: 200px;
+    height: 200px;
+}
+
+#visit-wiki {
+    background-color: #000000;
+    width: 200px;
+    height: 40px;
+    // margin-left: 100px;
+    border-radius: 24px;
+}
+
+#visit-wiki h3 {
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+#visit-wiki h3 a {
+    text-decoration: none;
+}
+
+#offical-docs {
+    margin-top: 150px;
+    width: 800px;
+    border-top: 2px solid $link-color;
+}
+
+#offical-docs h2 {
+    text-align: right;
+}
