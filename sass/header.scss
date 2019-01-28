@@ -58,6 +58,8 @@ body {
 }
 
 #title {
+    text-decoration: none;
+    color: $title-color;
     margin-top: 0;
     display: inline;
     float: left;
