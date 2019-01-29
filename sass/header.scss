@@ -21,19 +21,16 @@ body {
     padding: 0;
     background-color: #000000;
     height: 50px;
-    display: inline-block;
-    vertical-align: top;
-    overflow: hidden;
+    display: inline-flex;
     width: 100%
 }
 
 #menu {
     padding-top: 10px;
-    padding-right: 60px;
-    padding-left: 100px;
     white-space: nowrap;
     overflow: hidden;
-    text-align: right;
+    display: inline-flex;
+    align-items: flex-start;
 }
 
 #menu a {
@@ -50,17 +47,37 @@ body {
 #header-img {
     width: 35px;
     height: 35px;
-    margin-top: 7px;
     margin-left: 10px;
     padding-right: 5px;
-    display: inline;
-    float: left;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: flex-start;
+    vertical-align: top;
 }
 
 #title {
-    text-decoration: none;
     color: $title-color;
-    margin-top: 0;
-    display: inline;
-    float: left;
+    display: inline-flex;
+    align-items: flex-start;
+    font: 1.7em $title-font;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#title_link {
+    text-decoration: none;
+    height: 50px;
+    white-space: nowrap;
+}
+
+#page_title {
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    flex-grow: 2;
+    color: $title-color;
+    font: 1.5em $title-font;
+    white-space: nowrap;
+    padding-right: 100px;
+    padding-left: 100px;
 }

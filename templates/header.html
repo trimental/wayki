@@ -3,10 +3,15 @@
 </head>
 
 <div id="header">
-    <a href="{{ config.base_url }}">
+    <a id="title_link" href="{{ config.base_url }}">
         <img id="header-img" src="{{ config.base_url }}/images/WaylandLogo.svg">
         <h1 id="title">Wayki</h1>
     </a>
+    <h1 id="page_title">
+        {% if page.title %}
+            {{ page.title }}
+        {% endif %}
+    </h1>
     <div id="menu">
         <a href="{{ config.base_url }}">Home</a>
         <a href="wiki">Wiki</a>
