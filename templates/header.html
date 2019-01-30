@@ -1,19 +1,23 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="{{ config.base_url }}/header.css">
-</head>
+{% block head %}
+    <base href="{{ config.base_url }}" target="_self">
+    <link rel="stylesheet" type="text/css" href="header.css">
+{% endblock head %}
 
-<div id="header">
-    <a id="title_link" href="{{ config.base_url }}">
-        <img id="header-img" src="{{ config.base_url }}/images/WaylandLogo.svg">
-        <h1 id="title">Wayki</h1>
-    </a>
-    <h1 id="page_title">
-        {% if page.title %}
-            {{ page.title }}
-        {% endif %}
-    </h1>
-    <div id="menu">
-        <a href="{{ config.base_url }}">Home</a>
-        <a href="wiki">Wiki</a>
+{% block body %}
+    <div id="header">
+        <a id="title_link" href="">
+            <img id="header-img" src="images/WaylandLogo.svg">
+            <h1 id="title">Wayki</h1>
+        </a>
+        <h1 id="page_title">
+            {% if page.title %}
+                {{ page.title }}
+            {% endif %}
+        </h1>
+        <div id="menu">
+            <a href="">Home</a>
+            <a href="wiki">Wiki</a>
+            <a href="tutorials">Tutorials</a>
+        </div>
     </div>
-</div>
+{% endblock body %}

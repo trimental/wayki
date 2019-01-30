@@ -1,0 +1,17 @@
+$link-color: #2196F3;
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: $link-color;
+}
