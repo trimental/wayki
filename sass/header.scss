@@ -18,20 +18,18 @@ body {
 
 #header {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: #000000;
-    height: 50px;
+    height: 6%;
+    min-height: 2.5em;
+    width: 100%;
     display: inline-flex;
-    width: 100%
+    align-items: center;
 }
 
 #menu {
-    padding-top: 10px;
     white-space: nowrap;
     overflow: hidden;
     display: inline-flex;
-    align-items: flex-start;
 }
 
 #menu a {
@@ -46,23 +44,19 @@ body {
 }
 
 #header-img {
-    width: 35px;
-    height: 35px;
+    width: 2em;
+    height: 2em;
     margin-left: 10px;
     padding-right: 5px;
     margin-top: 10px;
-    display: inline-flex;
-    align-items: flex-start;
     vertical-align: top;
 }
 
 #title {
     color: $title-color;
-    display: inline-flex;
-    align-items: flex-start;
     font: 1.7em $title-font;
-    vertical-align: top;
     margin-top: 10px;
+    display: inline-flex;
 }
 
 #title_link {
