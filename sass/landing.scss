@@ -20,20 +20,22 @@ a:hover {
 
 #main-content {
     overflow: hidden;
-    white-space:nowrap;
     margin-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #main-block {
     white-space: normal;
-    margin-left: 10%;
+    width: 60%;
+    padding-bottom: 40px;
+    padding-left: 5%;
 }
 
 #logo-block {
-    padding-left: 100px;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #wayland-logo {
@@ -45,7 +47,6 @@ a:hover {
     background-color: #000000;
     width: 200px;
     height: 40px;
-    // margin-left: 100px;
     border-radius: 24px;
 }
 
