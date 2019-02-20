@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
 $link-color: #2196F3;
+
+$font-stack: 'Poppins', sans-serif;
+$title-font: 'Fredoka One', cursive;
+$primary-color: #FEFEFE;
 
 h2 {
     margin-top: 50px;
-    text-align: center;
+    margin-left: 15%;
+    border-bottom: 2px solid $link-color;
+    width: 70%;
 }
 
 ul {
@@ -14,4 +23,12 @@ ul {
 li a {
     text-decoration: none;
     color: $link-color;
+    font: 100% $title-font;
+    font-size: large;
+    background-color: #000000;
+    border-radius: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
